@@ -12,5 +12,11 @@
 
 local background = display.newImage( "world.jpg", display.contentCenterX, display.contentCenterY )
 
-local myText = display.newText( "Hello, World!", display.contentCenterX, display.contentWidth / 4, native.systemFont, 40 )
+local myText = display.newText( "Hello, World!", display.contentCenterX, display.contentHeight * 0.25, native.systemFont, 40 )
+myText:setFillColor( 1, 110/255, 110/255 )
+
+local myText = display.newText( "Hello, World!", display.contentCenterX, display.contentHeight * 0.5, native.systemFont, 40 )
+myText:setFillColor( 1, 110/255, 110/255 )
+
+local myText = display.newText( "Hello, World!", display.contentCenterX, display.contentHeight * 0.75, native.systemFont, 40 )
 myText:setFillColor( 1, 110/255, 110/255 )
